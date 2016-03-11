@@ -11,6 +11,7 @@ KERNEL_DEVICETREE_beaglebone = " \
     bbb-hdmi.dtb \
     bbb-nohdmi.dtb \
     bbb-4dcape70t.dtb \
+    bbb-4dcape43t.dtb \
     bbb-nh5cape.dtb \
  "
 
@@ -32,4 +33,5 @@ SRC_URI = " \
     file://0002-dts-Revoke-Beaglebone-i2c2-definitions.patch \
     file://0003-Add-ft5x06_ts-touchscreen-driver.patch  \
     file://0004-dts-Add-custom-bbb-dts-files.patch \
+    file://0005-dts-Add-4dcape43t.patch \
  "
